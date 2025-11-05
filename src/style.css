@@ -8,38 +8,42 @@ body {
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
   background-color: white;
   text-transform: uppercase;
 
 }
 
-
 .nav{
-  height: 60px;
-  text-align: center;
+  width: 80%;
 }
 
 .nav_ul{
   display: flex;
   flex-direction:row;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: flex-start;
   list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  width: 100%;
 }
 
 .nav_link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 100%;
   font-size: 12px;
   text-decoration: none;
-  text-align: center;
-  color: black;
-
-}
-
-.nav_link:visited{
   color: black;
 }
+
 
 
 
